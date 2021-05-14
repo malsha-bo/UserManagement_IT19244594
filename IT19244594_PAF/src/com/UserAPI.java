@@ -111,7 +111,7 @@ public class UserAPI extends HttpServlet {
 		// TODO Auto-generated method stub
 		Map paras = getParasMap(request);
 		
-		String output = userObj.deleteUser(paras.get("userId").toString());
+		String output = userObj.deleteUser(paras.get("userID").toString());
 		
 		response.getWriter().write(output);
 	}
