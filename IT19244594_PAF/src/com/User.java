@@ -93,9 +93,9 @@ public class User {
 				 output = "<table border='2'><tr>"+
 				 "<th>First Name</th>" +
 				 "<th>Last Name</th>" +
-				 "<th>NIC</th>" +
+				 "<th>  NIC</th>" +
 				 "<th>Phone Number</th>" +
-				 "<th>Email</th>" +
+				 "<th>  Email</th>" +
 				 "<th>Type</th>" +
 				 "<th>Password</th>"
 				 + "<th>Update</th><th>Remove</th></tr>";
