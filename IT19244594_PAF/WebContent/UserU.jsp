@@ -42,7 +42,7 @@
 			User Type: 
 			<input id='userType' name='userType' type='text' class='form-control form-control-sm'><br>
 			Password: 
-			<input id='password' name='password' type='text' class='form-control form-control-sm'><br>
+			<input id='password' name='password' type='text' class='form-control form-control-sm'><br><br>
 			
 		<input id="btnSave" name="btnSave" type="button" value="Save" class="btn btn-primary">
 		<input type="hidden" id="hidItemIDSave" name="hidItemIDSave" value="">
