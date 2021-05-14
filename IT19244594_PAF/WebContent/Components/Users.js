@@ -80,13 +80,13 @@ function onItemSaveComplete(response, status)
 
 $(document).on("click", ".btnUpdate", function(event)
 {
-	$("#hidItemIDSave").val($(this).data("userID"));
+	$("#hidItemIDSave").val($(this).data("userid"));
 	$("#firstName").val($(this).closest("tr").find('td:eq(0)').text());
 	$("#lastName").val($(this).closest("tr").find('td:eq(1)').text());
 	$("#nic").val($(this).closest("tr").find('td:eq(2)').text());
-	$("#userType").val($(this).closest("tr").find('td:eq(3)').text());
+	$("#phoneNumber").val($(this).closest("tr").find('td:eq(3)').text());
 	$("#email").val($(this).closest("tr").find('td:eq(4)').text());
-	$("#phoneNumber").val($(this).closest("tr").find('td:eq(5)').text());
+	$("#userType").val($(this).closest("tr").find('td:eq(5)').text());
 	$("#password").val($(this).closest("tr").find('td:eq(6)').text());
 })
 
@@ -98,7 +98,7 @@ $(document).on("click", ".btnRemove", function(event)
 	{
 		url : "UserAPI",
 		type : "DELETE",
-		data : "userId=" + $(this).data("userID"),
+		data : "userID=" + $(this).data("userid"),
 		dataType : "text",
 		complete : function(response, status)
 		{

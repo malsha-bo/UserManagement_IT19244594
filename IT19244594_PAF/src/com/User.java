@@ -130,9 +130,9 @@ public class User {
 
 					 
 					 // buttons
-			            output += "<td><input name='btnUpdate' type='button' value='Update' class=' btnUpdate btn btn-secondary' data-userID='" + userID + "'></td>"
+			            output += "<td><input name='btnUpdate' type='button' value='Update' class=' btnUpdate btn btn-secondary' data-userid='" + userID + "'></td>"
 			            		+ "<td><input name = 'btnRemove' type='button' value = 'Remove' "
-			            		+ "class = 'btnRemove btn btn-danger' data-userID='" + userID + "'>"
+			            		+ "class = 'btnRemove btn btn-danger' data-userid='" + userID + "'>"
 			            		+"</td></tr>";
 			            		
 			 }

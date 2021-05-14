@@ -50,9 +50,9 @@ public class UserAPI extends HttpServlet {
 		String output = userObj.insertUser(request.getParameter("firstName"), 
 				request.getParameter("lastName"),
 				request.getParameter("nic"),
-				request.getParameter("phoneNumber"),
+				request.getParameter("userType"),
 				request.getParameter("email"),
-		        request.getParameter("userType"),
+		        request.getParameter("phoneNumber"),
 				request.getParameter("password"));
 		
 		response.getWriter().write(output);
